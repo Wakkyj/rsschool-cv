@@ -1,1 +1,1 @@
-# [rsschool-cv](Wakkyj/rsschool-cv/cv)
+# [rsschool-cv](Wakkyj.github.io/rsschool-cv/cv)
