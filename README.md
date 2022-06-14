@@ -1,5 +1,5 @@
-# [rsschool-cv](https://Wakkyj.github.io/rsschool-cv/cv.md)
-# [rsschool-cv-html&css](https://Wakkyj.github.io/rsschool-cv/index.html)
+# [rsschool-cv](https://Wakkyj.github.io/rsschool-cv/cv)
+# [rsschool-cv-html&css](https://Wakkyj.github.io/rsschool-cv/)
 Самооценка: (Хорошая)
 + деплой в gh-pages 
 + вёрстка валидная +
