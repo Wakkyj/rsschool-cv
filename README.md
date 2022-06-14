@@ -1,9 +1,10 @@
-# [rsschool-cv](https://Wakkyj.github.io/rsschool-cv)
+# [rsschool-cv](https://Wakkyj.github.io/rsschool-cv/cv.md)
+# [rsschool-cv-html&css](https://Wakkyj.github.io/rsschool-cv/index.html)
 Самооценка: (Хорошая)
 + деплой в gh-pages 
 + вёрстка валидная +
 + вёрстка семантическая +
-    + header, main, footer
+    + header, main, footerg
     + элемент nav
     + только один заголовок h1
     + заголовки h2
