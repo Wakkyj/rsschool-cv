@@ -1,0 +1,52 @@
+.drop-btn {
+    display: block;
+    padding: 20px;
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    z-index: 2;
+    color: grey;
+    background-color: transparent;
+    border: none;
+}
+
+.header:hover > .nav{
+    display: block;
+}
+
+/* .drop-btn:hover + .nav{
+    display: block;
+} */
+
+.nav {
+    display: none;
+}
+
+.nav-list { 
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    padding-left: 20px;
+    
+
+    height: 100vh;
+    background-color: darkorange;
+    
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    list-style: none;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 10px 5px 5px grey;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.link {
+    display: block;
+    padding: 10px;
+    color: pink;
+}

@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="css/dropmeny.css">
   </head>
   <body>
-    <header>
-        <button class="dropbtn">Navigation</button>
-        <nav>
-            <ul class="Contact">
-                <li><a href="#Contacts">Contacts</a></li>
-                <li><a href="#AboutMe">About Me</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#CodeExample">Code Example</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#Languadge">Languadge</a></li>
+    <header class="header">
+        <button class="drop-btn">Navigation</button>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a class="link" href="#Contacts">Contacts</a></li>
+                <li><a class="link" href="#AboutMe">About Me</a></li>
+                <li><a class="link" href="#Skills">Skills</a></li>
+                <li><a class="link" href="#CodeExample">Code Example</a></li>
+                <li><a class="link" href="#Experience">Experience</a></li>
+                <li><a class="link" href="#Education">Education</a></li>
+                <li><a class="link" href="#Languadge">Languadge</a></li>
             </ul>
         </nav>
     </header>
@@ -64,46 +64,51 @@
         </div>
         </section>
 
-        <h2 id="AboutMe">About Me</h2>
-        <p>I&nbsp;have good interpersonal skills, am&nbsp;an&nbsp;good team worker and very 
-            willing to&nbsp;learn and develop new skills. I&nbsp;often seek myself 
-            within a&nbsp;wide range of&nbsp;employment areas.</p>
+        <section class="HeroContent">
+            <h2 id="AboutMe">About Me</h2>
+                <p>
+                    I&nbsp;have good interpersonal skills, am&nbsp;an&nbsp;good team worker and very 
+                    willing to&nbsp;learn and develop new skills. I&nbsp;often seek myself 
+                    within a&nbsp;wide range of&nbsp;employment areas.
+                </p>
 
-        <h2 id="Skills">Skills</h2>
+            <h2 id="Skills">Skills</h2>
             <ul>
                 <li>Git</li>
                 <li>HTML</li>
                 <li>Markdown</li>
             </ul>
 
-        <h2 id="CodeExample">Code Example</h2>
+            <h2 id="CodeExample">Code Example</h2>
                 
-        <pre><code>
-        function multiply(a, b) {
-        return a * b;
-        }
-        let result = multiply(1, 2);
-        alert( result );
-        </code></pre>
+<pre><code>     function multiply(a, b) 
+         return a * b;
+     let result = multiply(1, 2);
+     alert( result );
+</code></pre>
 
-        <h2 id="Experience">Experience</h2>
-            Only hard work:)
+            <h2 id="Experience">Experience</h2>
+                You can see my first <a href="https://github.com/Wakkyj/rsschool-cv/blob/main/cv.md">MarckDown CV</a>
+                or code of this <a href="https://github.com/Wakkyj/rsschool-cv/tree/rsschool-cv-html" >HTM&CSS CV</a>
 
-        <h2 id="Education">Education:</h2>
-            <ol>
-                <li>Math Lyceum</li>
-                <li>Languge Gymnasium</li>
-                <li>RS pre-schoole</li>
-            </ol>
+            <h2 id="Education">Education:</h2>
+                <ol>
+                    <li>Math Lyceum</li>
+                    <li>Languge Gymnasium</li>
+                    <li>RS pre-schoole</li>
+                </ol>
 
-        <h2 id="Languadge">Languadge</h2>
-        B1&nbsp;(I&nbsp;had been practicing English, 
-        when&nbsp;I study at&nbsp;schoole and university)
+            <h2 id="Languadge">Languadge</h2>
+                <p>
+                    B1&nbsp;(I&nbsp;had been practicing English, 
+                    when&nbsp;I study at&nbsp;schoole and university)
+                </p>   
+        </section>
     </main>
-    <footer style="height: 5em;">
-        <div>
+    <footer>
+        <div style="text-align: right;">
             <a href="https://rs.school/js/">
-                <img src="assets/images/rs_school_js.svg" style="margin-left: 40%; height: 80%" alt="RS-JS-logo">
+                <img src="assets/images/rs_school_js.svg" style="height: 80%" alt="RS-JS-logo">
             </a>
         </div>
         <div>
@@ -112,9 +117,9 @@
                 <div class="year" style="text-align: center; ">2022</div>
             </a>
         </div>
-        <div>
+        <div style="text-align: left">
             <a href="https://github.com/Wakkyj">
-                <img src="assets/icon/GitHub.webp" style="height: 80%" alt="GitHubLogo">
+                <img src="assets/icon/GitHub.webp" style="width: 80px" alt="GitHubLogo">
             </a>  
         </div>
     </footer>

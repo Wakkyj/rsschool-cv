@@ -1,13 +1,32 @@
-body {
-    margin: 5%;
-    orientation: center;
-    box-shadow: 1em 1em .4em gray;
+
+html {
+    margin: 10px auto;
+    width: 80%;
+    scroll-behavior: smooth;
+    align-items: center;
     font-family: Arial,sans-serif ;
+    font-size: 1em;
+    background-color: antiquewhite;
+    box-shadow: 10px 5px 5px grey;
 }
+
+body {
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: white;
+}
+
+.HeroContent {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 pre {
-    margin-left: 30%;
-    font-size: 1.5em;
+    margin-left: 0 auto;
+    font-size: 1em;
     font-family: monospace;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px grey;
 }
 a {
     text-decoration: none;
@@ -38,20 +57,23 @@ nav {
     grid-template-rows: auto auto 1fr;
     column-gap: 5px;
     position: relative;
+    width: inherit;
 }
 footer {
-
+    width: inherit;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 35% auto 35%;
     column-gap: 0px;
 }
-footer div{
-    height: 5em;
+footer div {
+    width: inherit;
+    height: inherit;
 }
+
 .year {
-    margin: 10%;
     text-align: center;
     font-size: 2em;
+    height: inherit;
 }
 ul li::marker {
     color: darkorange;
