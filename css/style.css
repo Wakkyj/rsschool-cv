@@ -60,14 +60,14 @@ nav {
     width: inherit;
 }
 footer {
-    width: inherit;
+    height: 80px;
     display: grid;
     grid-template-columns: 35% auto 35%;
     column-gap: 0px;
 }
+
 footer div {
-    width: inherit;
-    height: inherit;
+    height: 80px;
 }
 
 .year {
