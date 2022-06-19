@@ -5,7 +5,6 @@ html {
     scroll-behavior: smooth;
     align-items: center;
     font-family: Arial,sans-serif ;
-    font-size: 1em;
     background-color: antiquewhite;
     box-shadow: 10px 5px 5px grey;
 }
@@ -23,7 +22,7 @@ body {
 
 pre {
     margin-left: 0 auto;
-    font-size: 1em;
+    font-size: 1rem;
     font-family: monospace;
     background-color: aliceblue;
     box-shadow: 10px 5px 5px grey;
@@ -32,12 +31,12 @@ a {
     text-decoration: none;
 }
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
     font-family: Times New Roman,serif;
 }
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     font-family: Times New Roman,serif;
 }
@@ -72,12 +71,12 @@ footer div {
 
 .year {
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
     height: inherit;
 }
 ul li::marker {
     color: darkorange;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 #ContList li::marker {
     font-size: 0;

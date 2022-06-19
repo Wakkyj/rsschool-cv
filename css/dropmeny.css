@@ -5,7 +5,7 @@
     top: 10px;
     left: 0px;
     z-index: 2;
-    color: grey;
+    color: darkorange;
     background-color: transparent;
     border: none;
 }
@@ -26,8 +26,8 @@
     display: block;
     margin: 0;
     padding: 0;
-    padding-top: 70px;
-    padding-left: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
     
 
     height: 100vh;
