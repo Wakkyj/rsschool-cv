@@ -1,12 +1,18 @@
 
 html {
     margin: 10px auto;
-    width: 80%;
+    width: 800px;
     scroll-behavior: smooth;
     align-items: center;
     font-family: Arial,sans-serif ;
     background-color: antiquewhite;
     box-shadow: 10px 5px 5px grey;
+}
+
+@media screen and (max-width: 900px) {
+    html {
+        width: 500px;
+    }
 }
 
 body {
